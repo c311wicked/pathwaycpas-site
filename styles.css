@@ -133,7 +133,8 @@ p { margin: 0; }
 
 /* About */
 .about .wrap { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 72px; align-items: center; }
-.about .photo { height: 440px; background: #25445F; }
+.about .photo { width: 100%; max-width: 400px; aspect-ratio: 3 / 4; justify-self: center; background: #25445F; }
+.about .photo img { object-position: center 30%; }
 .about .photo > svg { opacity: 0.5; }
 .about-copy { display: flex; flex-direction: column; gap: 22px; }
 .about-copy h2 { color: var(--white); }
@@ -244,7 +245,7 @@ th { color: var(--ink); font-weight: 700; background: var(--ground); }
   .service-card { padding: 26px 22px; }
   .steps { gap: 28px; }
   .step-num { font-size: 40px; }
-  .about .photo { height: 240px; }
+  .about .photo { max-width: 300px; }
   .contact-band { padding-bottom: 56px; }
   .contact-card { padding: 28px 22px; }
   .page-head { padding: 48px 0 40px; }
