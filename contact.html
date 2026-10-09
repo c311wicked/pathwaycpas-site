@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact | Pathway Tax & Financial</title>
+<meta name="description" content="Call (760) 990-1829, email chad@pathwaycpas.com, or book a virtual or in-person appointment in Fallbrook, CA.">
+<link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Public+Sans:wght@400;500;600;700&family=Outfit:wght@700&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="topbar">
+  <div class="wrap">
+    <span>Office in Fallbrook, CA. Virtual appointments available anywhere.</span>
+    <div class="topbar-links">
+      <a href="https://pathwaytax.clientportal.com">Client Portal</a>
+      <a href="https://pathwaytax.clientportal.com">Make a Payment</a>
+      <a class="phone" href="tel:+17609901829">(760) 990-1829</a>
+    </div>
+  </div>
+</div>
+<header class="header">
+  <div class="wrap">
+    <a class="logo" href="index.html" aria-label="Pathway Tax &amp; Financial home">
+      <svg viewBox="0 0 44 44" aria-hidden="true"><polygon points="0,0 22,22 0,44" fill="#1E5F74"/><polygon points="0,0 22,22 44,0" fill="#A63A2A"/><polygon points="44,0 22,22 44,44" fill="#2C7C96"/><polygon points="0,44 22,22 44,44" fill="#14304A"/></svg>
+      <span class="logo-text"><span class="logo-name">Pathway</span><span class="logo-sub">Tax &amp; Financial</span></span>
+    </a>
+    <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <nav class="nav" id="site-nav" aria-label="Main">
+      <a href="services.html">Services</a>
+      <a href="about.html">About</a>
+      <a href="resources.html">Resources</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+      <a class="btn btn--primary" href="contact.html#book">Book an appointment</a>
+    </nav>
+  </div>
+</header>
+<main>
+
+<section class="page-head">
+  <div class="wrap">
+    <span class="kicker">Contact</span>
+    <h1>Let's talk about your taxes</h1>
+    <p class="lede">No pressure, no obligation. Call, email, or book a time that works for you.</p>
+  </div>
+</section>
+<section class="section">
+  <div class="wrap">
+    <div class="contact-card" id="book">
+      <div class="lead">
+        <h2>Book an appointment</h2>
+        <p>Meet by video or phone from anywhere, or in person at the Fallbrook office.</p>
+        <div class="btn-row">
+          <a class="btn btn--primary" href="tel:+17609901829"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="6" width="14" height="12" rx="2"/><path d="M16 10l6-3v10l-6-3"/></svg>Virtual appointment</a>
+          <a class="btn btn--outline" href="tel:+17609901829"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s7-6.5 7-12a7 7 0 0 0-14 0c0 5.5 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg>In person in Fallbrook</a>
+        </div>
+      </div>
+      <div class="contact-facts">
+  <div class="fact"><span class="fact-label">Phone</span><a href="tel:+17609901829">(760) 990-1829</a></div>
+  <div class="fact"><span class="fact-label">Email</span><a href="mailto:chad@pathwaycpas.com">chad@pathwaycpas.com</a></div>
+  <div class="fact"><span class="fact-label">Office</span><span>1595 S Mission Rd.<br>Fallbrook, CA 92028</span></div>
+  <div class="fact"><span class="fact-label">Virtual</span><span>Video and phone appointments, wherever you are</span></div>
+</div>
+    </div>
+  </div>
+</section>
+<section class="section section--white">
+  <div class="wrap">
+    <div class="section-head"><div class="stack"><span class="kicker">Current clients</span><h2>Documents and payments</h2></div></div>
+    <div class="service-grid">
+      <div class="service-card">
+        <h3>Client Portal</h3>
+        <p>Upload documents, sign forms, and message us securely.</p>
+        <a href="https://pathwaytax.clientportal.com">Open the client portal</a>
+      </div>
+      <div class="service-card">
+        <h3>Make a Payment</h3>
+        <p>Pay your invoice online through the secure portal.</p>
+        <a href="https://pathwaytax.clientportal.com">Pay an invoice</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="footer">
+  <div class="wrap">
+    <span>&copy; <span id="year">2026</span> Pathway Tax &amp; Financial. All rights reserved.</span>
+    <div class="footer-links">
+      <a href="https://pathwaytax.clientportal.com">Client Portal</a>
+      <a href="https://pathwaytax.clientportal.com">Make a Payment</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+</footer>
+<script>
+  (function () {
+    var btn = document.querySelector('.menu-toggle');
+    var nav = document.getElementById('site-nav');
+    btn.addEventListener('click', function () {
+      var open = nav.classList.toggle('open');
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      btn.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+    });
+    document.getElementById('year').textContent = new Date().getFullYear();
+  })();
+</script>
+</body>
+</html>
